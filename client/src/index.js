@@ -2,7 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {BrowserRouter as Router} from 'react-router-dom'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import RecipeList from '../src/Recipes/RecipeList'
+
+ReactDOM.render(
+    <Router>
+    <App />
+    </Router>, 
+    document.getElementById('root'));
 registerServiceWorker();
