@@ -8,8 +8,6 @@ import registerServiceWorker from './registerServiceWorker';
 import RecipeList from '../src/Recipes/RecipeList'
 
 ReactDOM.render(
-    <Router>
-    <App />
-    </Router>, 
+    <Router><App /></Router>, 
     document.getElementById('root'));
 registerServiceWorker();

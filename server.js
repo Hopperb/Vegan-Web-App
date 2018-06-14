@@ -19,7 +19,7 @@ server.get('/', (req, res) => {
     res.status(200).json({api: 'up and running'})
 });
 
-server.use('/api/recipe', RecipeController)
+server.use('/api/recipes', RecipeController)
 
 mongoose.Promise =  global.Promise;
 mongoose.connect('mongodb://localhost/vegandb', {}, (err) => {
