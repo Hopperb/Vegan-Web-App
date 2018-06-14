@@ -34,7 +34,7 @@ class RecipeList extends Component{
                 {this.state.recipes.map(recipe => {
                     return (
                         <li key={recipe}>
-                        <Card inverse>
+                        <Card className="card" inverse>
                             <CardImg  className="img" width="" src="https://i2.wp.com/www.thissavoryvegan.com/wp-content/uploads/2017/05/vegan-potato-salad.jpeg?resize=500%2C500&ssl=1"alt="Card image cap"/>
                             <CardImgOverlay>
                             <CardTitle>{recipe.title}</CardTitle>
