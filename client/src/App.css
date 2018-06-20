@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 6%;
+  border: 4px solid gray;
 }
 
 .App-logo {
@@ -29,6 +33,7 @@
 
 .card{
   border: 1px solid red;
-  width: 25%;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+
 }
